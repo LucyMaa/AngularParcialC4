@@ -1,0 +1,7 @@
+<ul class="list-group">
+    <li class="list-group-item border-dark" *ngFor="let diagrama of coordenadas; let i = index">
+        <p>Diagrama guardado</p>
+
+        <button class="btn btn-success" (click)="loadDiagram(i)">Cargar</button>
+    </li>
+</ul>

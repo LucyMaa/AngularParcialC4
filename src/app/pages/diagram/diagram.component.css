@@ -1,0 +1,42 @@
+#diagramsPanel {
+    width: 100%;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+#diagramDiv {
+    border: 3px solid black;
+    /*border-left: 4px solid lightgreen;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 84%;
+    height: 550px;
+    background: white;
+}
+
+#paletteDiv {
+    border: 3px solid black;
+    display: inline-block;
+    vertical-align: top;
+    width: 13%;
+    height: 550px;
+    /*padding-top: 100px;*/
+    background: whitesmoke;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.getDiagrams {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.loadDiagram {
+    width: 100%;
+    height: 500px;
+    background: whitesmoke;
+    border: 3px solid black;
+}
